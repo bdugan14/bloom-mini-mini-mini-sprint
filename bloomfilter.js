@@ -15,7 +15,7 @@ function bloomFilter(storageSize){
     //finish this function
   }
 
-  //This function return "true" if the string is definitely in the bloom filter, and false
+  //This function return "true" if the string might be in the bloom filter, and false
   //if it is definitely not in the bloom filter.
   function isWordProbablyInFilter(string){
     if(string.length !== 2){
